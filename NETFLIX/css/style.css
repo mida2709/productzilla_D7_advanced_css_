@@ -1,28 +1,28 @@
 body {
-  background: url('../img/background.jpg');
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .showcase {
   margin: auto;
-  text-decoration: none;
   text-align: center;
 }
 
 .showcase-top {
-  display: inline;
+  display: inline-block;
   margin-right: 25px;
 }
 
 .showcase-content {
   text-align: center;
-  text-decoration: none;
   color: white;
   padding-top: 150px;
 }
 
 h1 {
   font-size: 35pt;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 p {
@@ -64,7 +64,6 @@ p {
   width: 50px;
   height: 50px;
   background-color: #75100c;
- 
 }
 
 img {
